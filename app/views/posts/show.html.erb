@@ -1,10 +1,19 @@
-<p id="notice"><%= notice %></p>
+<div class = "box3">
+  <%= link_to '太陽鍼灸院', new_post_path %>
+  <p class = "sub2">〜Dr 鍼灸 NISHI屋〜</p>
+</div>
 
-<p>
-  <strong>Title:</strong>
+<body class="blog2">
+  
+<p id="notice"><%= notice %></p>
+  <!--p class = "sub">〜Dr 鍼灸 NISHI屋〜</p-->
+
+<p class = "title1">
+  <strong>NEWS:</strong>
   <%= @post.title %>
 </p>
 
 <%= @post.content %>
-<%= link_to 'Edit', edit_post_path(@post) %> |
-<%= link_to 'Back', posts_path %>
+<!-- %= link_to '編集', edit_post_path(@post) %--> <!--|  -->
+<%= link_to 'TOP', posts_path %> <!-- | -->
+</body class="blog2">
