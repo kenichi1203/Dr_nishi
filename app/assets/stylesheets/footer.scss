@@ -86,13 +86,11 @@
   font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
   font-size: 30px;
   font-weight: normal;
-  //border-bottom: 1px solid #000;
   padding-bottom: 6px;
   letter-spacing: 2px;
   font-style: italic;
   color: #333;
   width: 600px;
-  //border-bottom: 1px solid #000;
   left: 686px;
 }
 .products_number2{
@@ -102,13 +100,11 @@
   font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
   font-size: 30px;
   font-weight: normal;
-  //border-bottom: 1px solid #000;
   padding-bottom: 6px;
   letter-spacing: 2px;
   font-style: italic;
   color: #333;
   width: 600px;
-  //border-bottom: 1px solid #000;
   left: 706px;
 }
 .products_number3{
@@ -118,13 +114,11 @@
   font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
   font-size: 30px;
   font-weight: normal;
-  //border-bottom: 1px solid #000;
   padding-bottom: 6px;
   letter-spacing: 2px;
   font-style: italic;
   color: #333;
   width: 600px;
-  //border-bottom: 1px solid #000;
   left: 563px;
 }
 .products_number4{
@@ -134,13 +128,11 @@
   font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
   font-size: 30px;
   font-weight: normal;
-  //border-bottom: 1px solid #000;
   padding-bottom: 6px;
   letter-spacing: 2px;
   font-style: italic;
   color: #333;
   width: 600px;
-  //border-bottom: 1px solid #000;
   left: 596px;
 }
 .products_number5{
@@ -150,13 +142,11 @@
   font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
   font-size: 30px;
   font-weight: normal;
-  //border-bottom: 1px solid #000;
   padding-bottom: 6px;
   letter-spacing: 2px;
   font-style: italic;
   color: #333;
   width: 600px;
-  //border-bottom: 1px solid #000;
   left: 676px;
 }
 .mybox4{
@@ -184,6 +174,8 @@
   font-family: kozuka-gothic-pr6n
 }
 .footer{
+  position: relative;
+  left: 10px;
   overflow: hidden;
 }
 .place{
@@ -312,16 +304,18 @@
   overflow: hidden;
   border-radius: 13px;
 }
-.fa-instagram {/*アイコン*/
-  color: #FFF;/*白に*/
-  position: relative;/*z-indexを使うため*/
-  z-index: 2;/*グラデーションより前に*/
-  font-size: 35px;/*アイコンサイズ*/
-  line-height: 50px;/*高さと合わせる*/
+.fa-instagram {
+  color: #FFF;
+  position: relative;
+  z-index: 2;
+  font-size: 35px;
+  line-height: 50px;
   margin-left: 10px;
   margin-top: 7px;
 }
 .main.footer{
+  position: relative;
+  left: 2px;
   background-color: #1b1b1b;
   font-size: 93%;
   padding-top: 40px;

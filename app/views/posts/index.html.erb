@@ -20,14 +20,14 @@
         <td><%= post.title %></td>
         <td><%= link_to '編集', edit_post_path(post) %></td>
         <td><%= link_to '詳細', post %></td>
+         <td><%= link_to '削除', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
 </div>
 
-<div class="toppage">
-  <a href="/home/top">TOP</a>
-</div class="toppage">
-
-
+ <div class = "home_top">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+    <div id="home_top"><a href="/home/top"></a>
+ </div>
 </body>
