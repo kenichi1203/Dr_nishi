@@ -9,7 +9,7 @@ default: &default
   encoding: utf8
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: root
-  password: '@Kenichi1203'
+  password: kenichi1203
   socket: /tmp/mysql.sock
 
 development:
